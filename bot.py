@@ -2,8 +2,8 @@ import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 
-BOT_TOKEN= ("BOT_TOKEN")
-
+BOT_TOKEN= os.getenv("BOT_TOKEN")
+ 
 SOURCE_CHAT_ID = -5146530739    # baad me bharenge
 DEST_CHAT_ID = -5140519863    # baad me bharenge
 
